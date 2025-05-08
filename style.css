@@ -1,0 +1,18 @@
+:root{
+    --branco-principal:white;
+    --botao-azul:rgb(0, 0, 255);
+    --cor-de-fundo:black;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+button{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border: 7px;
+    border-radius: 12px;
+}
