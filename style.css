@@ -13,6 +13,30 @@ body{
 button{
     background-color: var(--botao-azul);
     color: var(--branco-principal);
+    text-decoration-color: var(--branco-principal);
     border: 7px;
     border-radius: 12px;
+}
+
+.container{
+    grid-template-columns: 50% 50%;
+    display: grid;
+}
+a{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-decoration-color: var(--branco-principal);
+    border: 7px;
+    border-radius: 12px;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display:block; 
+}
+
+img{
+    height: 400px;
 }
