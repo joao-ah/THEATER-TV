@@ -2,12 +2,14 @@
     --branco-principal:white;
     --botao-azul:rgb(0, 0, 255);
     --cor-de-fundo:black;
-
+    --fonte-principal: 'Bebas Neue';
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
 }
 
 button{
@@ -39,4 +41,5 @@ a{
 
 img{
     height: 400px;
+    size: 300px;
 }
